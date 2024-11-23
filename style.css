@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:outfit
+    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:radial-gradient(#e91fa8,#b9dfee);
+    /* background-image: g; */
+}
+.container{
+    height: 600px;
+    width: 550px;
+    background-color: rgba(240, 248, 255, 0.455);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+}
+h2{
+    font-size: 30px;
+    font-family:mongkrain;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+.inputContainer{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 75%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid black;
+}
+.inputContainer button{
+    font-size: 20px;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.inputContainer button:hover{
+    box-shadow: rgba(0, 0, 0, 10) 5px 5px 2px;
+    scale: 105%;
+}
+.inputContent{
+    height: 420px;
+    margin-top: 20px;
+    width: 100%;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.content{
+    /* height: 150px; */
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+
+}
+.content p{
+    width: 85%;
+    font-size: 17px;
+    text-align: justify;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+.icons i{
+    font-size: 23px;
+}
+.fa-pen-to-square{
+    color: green;
+    cursor: pointer;
+}
+.fa-trash-can{
+    color: red;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(212, 203, 203);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-image:linear-gradient(#e91fa8,#3192b8);
+
+}
